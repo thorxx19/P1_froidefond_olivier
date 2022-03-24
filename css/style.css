@@ -27,7 +27,6 @@ footer {
   background: rgb(0 54 104);
   padding: 60px 0px 60px 90px !important;
   color: white;
-  margin-bottom: 150px !important;
 }
 .logo {
   font-size: 250px;
@@ -44,12 +43,14 @@ footer {
   box-shadow: 2px 2px 6px black;
 }
 .twiter {
-  width: 7%;
+  width: 163px;
+  margin: 5px 7px 0px 7px;
 }
 .git {
-  width: 7%;
-  margin: 0px 13px 0px 13px;
+  width: 163px;
+  margin: 5px 7px 0px 7px;
 }
 .link {
-  width: 7%;
+  width: 163px;
+  margin: 5px 7px 0px 7px;
 }

@@ -16,9 +16,9 @@
 <body class="container-fluid">
     <!-- en-tête -->
     <header class="row">
-        <div class="col-xl-1"></div>
+        <div class="col-xxl-1 col-12"></div>
         <!-- into -->
-        <div class="col-xl-5">
+        <div class="col-xxl-5 col-12">
             <h1>Olivier Froidefond</h1>
             <p><span class="green1">Développeur Java</span></p>
             <p>Bonjour, je suis Olivier, Développeur Java bientôt diplômé chez OpenClassrooms.</p>
@@ -27,7 +27,7 @@
         <div class="col-xl-1"></div>
         <!-- Photo de profil -->
         <div class="col-xl-5">
-        <img class="photo" src="../P1_froidefond_olivier/img/id_logo.png" alt="photo identité">
+        <img class="photo img-fluid" src="img/id_logo.png" alt="photo identité">
         </div>
         <!-- fin photo profil -->
     </header>
@@ -36,13 +36,13 @@
 <!-- partie principal -->
     <main class="row">
         <!-- debut aside -->
-        <aside class="col-xl-5 row align-items-center text-center">
+        <aside class="col-xxl-5 col-12 row align-items-center text-center">
             <p class="logo ">&lt&#47&gt</p>
         </aside>
         <!-- fin aside -->
 
         <!-- debut article -->
-        <article class="col-xl-7">
+        <article class="col-xxl-7 col-12">
             <p class="compt">Mes <span class="green1">compétences</span></p>
             <p>Je crée des applications Java pour le web. Voici quelques examples d'applications sur lequelles j'ai travaillé:</p>
             <ul>
@@ -61,15 +61,18 @@
 <!-- fin partie principal -->
 
 <!-- debut footer -->
-    <footer class="">
+    <footer class="row">
+        <div class="col-xl-12">
         <h3>Retrouvez-moi sur les réseaux</h3>
         <p><span class="green"> Une idée de projet?</span> Contacter-moi!</p>
+    </div>
+    <div class="col-xl-12 col-lg-5 col-5">
+        <a href="#"> <img class="twiter img-fluid" src="img/twiter.png" alt="twiter"></a>
 
-        <a href="#"> <img class="twiter" src="../P1_froidefond_olivier/img/twiter.png" alt="twiter"></a>
+        <a href="#"><img class="git img-fluid" src="img/git.png" alt="github"></a> 
 
-        <a href="#"><img class="git" src="../P1_froidefond_olivier/img/git.png" alt="github"></a> 
-
-        <a href="#"><img class="link" src="../P1_froidefond_olivier/img/link.png" alt="linkedin"></a> 
+        <a href="#"><img class="link img-fluid" src="img/link.png" alt="linkedin"></a> 
+    </div>
     </footer>
 <!-- fin footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
