@@ -54,3 +54,38 @@ footer {
   width: 163px;
   margin: 5px 7px 0px 7px;
 }
+@media screen and (max-width:576px){
+  *{
+    font-size: 15px;
+  }
+  .green1{
+    font-size: 35px;
+  }
+  .logo{
+    font-size: 200px;
+  }
+  .compt{
+    font-size: 35px;
+  }
+  h1{
+    font-size: 35px;
+  }
+  
+}
+@media screen and (max-width:768px){
+  .twiter {
+    width: 80px;
+    margin: 5px 3px 0px 3px;
+  }
+  .git {
+    width: 80px;
+    margin: 5px 3px 0px 3px;
+  }
+  .link {
+    width: 80px;
+    margin: 5px 3px 0px 3px;
+  }
+}
+@media screen and (max-width:992px){
+  
+}
